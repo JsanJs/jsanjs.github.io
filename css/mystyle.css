@@ -1,140 +1,129 @@
-html{
-	height:100%;
+html {
+  height: 100%;
 }
 
-body{
-	background: #757F9A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+body {
+  margin-top: 82px;
 }
 
-.navbar{
-	opacity: 0.5;
-	filter: alpha(opacity=50);
-	font-size: 1.4em;
-	color: white !important;
+.navbar {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
 }
 
-.navbar-brand{
-	font-size: 1.2em;
+.navbar-brand {
+  font-family: "Anton";
+  font-size: 1.65em;
 }
 
-#before-type{
-	margin-top: 10%;
-	font-family:"Baloo Chettan";
-	font-size: 2.5em;
+.highlight {
+  color: #ff751a;
 }
 
-
-
-#first_section{
-	background: #757F9A;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.other-links{
+	margin-top: 70px;
 }
 
-
-
-.heading{
-	font-family:"Fjalla One";
-	font-size:3.5em;
-	text-align:center;
-	color: #666666;
+#first_section {
+  background: url('../img/background-3.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  min-height: 900px;
 }
 
-.intro{
-	margin: auto;
-	font-family: "Questrial";
-	font-size: 2.0em;
-	color:#737373;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+#about {
+  padding-bottom: 50px;
 }
 
-.jumbotron p{
-	font-size:1.3em;
-	font-family: "Baloo Chettan";
-	color: #666666;
+#about-header {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 900px;
 }
 
 
-.info{
-	margin: 5%;
-	font-family: "Baloo Chettan";
-	font-size:2.5em;
-	color:#666666;
+.intro {
+	text-align: center;
+	margin-top: 350px;
+	color: white;
+	line-height: 90px;
+	font-family: "Kalam";
+	font-size: 5.0rem;
+	text-shadow: 1px 1px 2px black;
+}
+
+.info {
+  margin: 5%;
+  font-family: "Baloo Chettan";
+  font-size: 2.5em;
+  color: #666666;
+}
+
+.navbar-inner {
+  background: transparent;
 }
 
 
-
-.navbar-inner{
-	background:transparent;
+.play-section {
+  margin-top: 90px;
 }
 
-#highlight{
-	color:#6600cc;
+.typing {
+	font-family: "Montserrat";
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-.typing{
-	color:#6600cc;
-	font-family: "Fjalla One";
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-				 0px 8px 13px rgba(0,0,0,0.1),
-				 0px 18px 23px rgba(0,0,0,0.1);
+hr.style-two {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
-.navbar-default .navbar-nav>li>a{
-	font-family:"Fjalla One";
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 
-.navbar-default .navbar-brand{
-	font-family:"Fjalla One";
-	font-weight: 700px;
-	color:#6600cc;
-}
-
-
-
-#left_content{
-	padding-top: 250px;
-}
-
-#right_content{
-	padding-top: 100px;
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-
-
-.typed-cursor{
+@keyframes blink {
+  0% {
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
