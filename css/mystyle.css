@@ -14,6 +14,7 @@ body {
 .navbar-brand {
   font-family: "Anton";
   font-size: 1.65em;
+<<<<<<< HEAD
   letter-spacing: 1.2px;
 }
 
@@ -106,6 +107,86 @@ hr.style-two {
 }
 
 @keyframes blink {
+=======
+}
+
+.highlight {
+  color: #ff751a;
+}
+
+.other-links{
+	margin-top: 70px;
+}
+
+#first_section {
+  background: url('../img/background-3.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  min-height: 900px;
+}
+
+#about {
+  padding-bottom: 50px;
+}
+
+#about-header {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#overlay {
+  background: rgba(0, 0, 0, 0.4);
+  min-height: 900px;
+}
+
+
+.intro {
+	text-align: center;
+	margin-top: 350px;
+	color: white;
+	line-height: 90px;
+	font-family: "Kalam";
+	font-size: 5.0rem;
+	text-shadow: 1px 1px 2px black;
+}
+
+.info {
+  margin: 5%;
+  font-family: "Baloo Chettan";
+  font-size: 2.5em;
+  color: #666666;
+}
+
+.navbar-inner {
+  background: transparent;
+}
+
+
+.play-section {
+  margin-top: 90px;
+}
+
+.typing {
+	font-family: "Montserrat";
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
   0% {
     opacity: 1;
   }
@@ -118,6 +199,7 @@ hr.style-two {
 }
 
 @-webkit-keyframes blink {
+>>>>>>> b65f0e2f1dfe0c1a5e9e759e000a786d3bca4a3e
   0% {
     opacity: 1;
   }
@@ -129,6 +211,21 @@ hr.style-two {
   }
 }
 
+<<<<<<< HEAD
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+=======
+>>>>>>> b65f0e2f1dfe0c1a5e9e759e000a786d3bca4a3e
 @-moz-keyframes blink {
   0% {
     opacity: 1;
