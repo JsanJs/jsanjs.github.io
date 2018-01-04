@@ -6,6 +6,13 @@ body {
   margin-top: 82px;
 }
 
+hr.style-two {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .navbar {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   opacity: 0.8;
@@ -44,20 +51,11 @@ body {
 	margin-top: 70px;
 }
 
-#first_section {
+#showcase {
   background: url('../img/background-3.jpeg') no-repeat center center;
   background-size: cover;
   height: 100%;
   min-height: 900px;
-}
-
-#about {
-  padding-bottom: 50px;
-}
-
-#about-header {
-  text-align: center;
-  padding-top: 100px;
 }
 
 #overlay {
@@ -66,8 +64,7 @@ body {
 }
 
 
-.intro {
-	text-align: center;
+#intro {
 	margin-top: 350px;
 	color: white;
 	line-height: 90px;
@@ -76,15 +73,12 @@ body {
 	text-shadow: 1px 1px 2px black;
 }
 
-.info {
-  margin: 5%;
-  font-family: "Baloo Chettan";
-  font-size: 2.5em;
-  color: #666666;
+#about {
+  padding-bottom: 50px;
 }
 
-.navbar-inner {
-  background: transparent;
+#about-header {
+  padding-top: 100px;
 }
 
 
@@ -96,13 +90,6 @@ body {
 	font-family: "Montserrat";
   color: white;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
-}
-
-hr.style-two {
-  border: 0;
-  height: 1px;
-  width: 50%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .typed-cursor {
