@@ -24,21 +24,20 @@ hr.style-two {
   letter-spacing: 1.2px;
 }
 
-.nav-item{
+.nav-item {
   padding: 0px 25px;
 }
 
-.nav-option:hover{
-  color:  #ff751a;
+.nav-option:hover {
+  color: #ff751a;
   height: 100%;
 }
 
-
-.navbar-nav li{
-  color:white;
+.navbar-nav li {
+  color: white;
 }
 
-.nav-link{
+.nav-link {
   font-family: "Montserrat";
   font-size: 1.2em;
 }
@@ -47,14 +46,13 @@ hr.style-two {
   color: #ff751a;
 }
 
-.other-links{
-	margin-top: 70px;
+.other-links {
+  margin-top: 70px;
 }
 
 #showcase {
   background: url('../img/background-3.jpeg') no-repeat center center;
   background-size: cover;
-  height: 100%;
   min-height: 900px;
 }
 
@@ -63,14 +61,13 @@ hr.style-two {
   min-height: 900px;
 }
 
-
 #intro {
-	margin-top: 350px;
-	color: white;
-	line-height: 90px;
-	font-family: "Kalam";
-	font-size: 5.0rem;
-	text-shadow: 1px 1px 2px black;
+  margin-top: 350px;
+  color: white;
+  line-height: 90px;
+  font-family: "Kalam";
+  font-size: 5.0rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 #about {
@@ -81,13 +78,12 @@ hr.style-two {
   padding-top: 100px;
 }
 
-
 .play-section {
   margin-top: 90px;
 }
 
 .typing {
-	font-family: "Montserrat";
+  font-family: "Montserrat";
   color: white;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
