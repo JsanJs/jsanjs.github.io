@@ -1,6 +1,6 @@
 $(function() {
   $(".typing").typed({
-    strings: ["Welcome and thank you for visiting my website!", "I am currently a senior student at UTSA.", "I study the field of Computer Science.", "My main concentration lies in Software Engineering.", "I also have concentration in Cloud Computing and Data Science.", "I'm also familiar with Cyber Security.", "Want to know more? Scroll down!"],
+    strings: ["Welcome to my website!", "I am currently a senior student at UTSA.", "I study the field of Computer Science.", "My main concentration lies in Software Engineering.", "I also study Cloud Computing and Data Science.", "I am quite familiar with Cyber Security.", "Want to know more? Scroll down!"],
     typeSpeed: 30,
     backDelay: 1000,
     loop: true
